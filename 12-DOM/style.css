@@ -1,0 +1,24 @@
+.texte-promo{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.succes{
+    color: green;
+    font-weight: bold;
+}
+
+.erreur{
+    color: red;
+    font-weight: bold;
+}
+
+.bordure-bleue {
+    border: 1px solid blue;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+h1{
+    text-align: center;
+    color: maroon;
+    margin-bottom: 30px;
+}
+
+#liste-todos {
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.todo {
+    background: coral;
+    color: white;
+    margin : 10px;
+    padding: 5px;
+    border: 1px dotted brown;
+    cursor: pointer;
+}
+
+.todo-fait {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
